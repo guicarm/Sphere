@@ -10,7 +10,6 @@ export default function Home() {
     <main className="flex min-h-screen items-center justify-between">
       <nav className="absolute right-4 top-4">
         <ModeToggle />
-        <a href="exercicio.tsx"> Pagina Exercicio </a>
       </nav>
 
       <aside className="h-screen overflow-hidden hidden lg:block">
