@@ -2,8 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ModeToggle } from "@/components/ui/mode-toggle";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { TabsContent } from "@radix-ui/react-tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent} from "@/components/ui/tabs";
 
 export default function Home() {
   return (
@@ -40,7 +39,7 @@ export default function Home() {
                 <Input id="Senha" type="password" />
               </div>
 
-              <Button>Entrar</Button>
+              <Button className="mt-2">Entrar</Button>
             </form>
           </TabsContent>
 
@@ -63,7 +62,7 @@ export default function Home() {
                 <Input id="Senha" type="password" />
               </div>
 
-              <Button>Criar conta</Button>
+              <Button className="mt-2" >Criar conta</Button>
             </form>
           </TabsContent>
         </Tabs>
